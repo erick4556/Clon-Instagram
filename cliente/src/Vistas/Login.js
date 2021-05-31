@@ -17,7 +17,7 @@ const Login = (props) => {
   };
 
   const handleSubmit = async (e) => {
-    //Recibe un eventp también
+    //Recibe un event también
     e.preventDefault(); // Para que no haga refresh de la página cuando se envian los datos
     try {
       //const { data } = await Axios.post("/api/usuarios/login", usuario); //Le paso el estado del formulario "usuario"
@@ -55,7 +55,7 @@ const Login = (props) => {
               Login
             </button>
             <p className="FormContainer__info">
-              No tienes cuenta? <Link to="/signup">SignUp</Link>>
+              No tienes cuenta? <Link to="/signup">SignUp</Link>
             </p>
           </form>
         </div>
